@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-image {
+  background-image: url("/images/bg-hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  
+}
+@media (max-width: 768px) {
+  .bg-image {
+    background-image: url("/images/bg-hero.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+  }
+}
